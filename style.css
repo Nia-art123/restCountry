@@ -1,0 +1,112 @@
+body {
+    background: #f0f4f8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+nav > :nth-child(2):hover {
+    cursor: pointer;
+    color: #ff6b6b;
+}
+
+nav > :nth-child(2):active {
+    color: #ff4c4c;
+}
+
+img {
+    width: 300px;
+}
+
+#darkModeToggle {
+    background: #333;
+    color: #fff;
+}
+
+.whitemode {
+    background: #ffffff;
+}
+
+.whiteText {
+    color: #fff;
+}
+
+.blackText {
+    color: #000;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contentWrapper {
+    position: relative;
+}
+
+#searchResultsContainer {
+    display: flex;
+    position: absolute;
+}
+
+.searchResults {
+    display: flex;
+    margin: 100px 0px 0px 150px;
+}
+
+.searchResults img {
+    margin-right: 40px;
+}
+
+.filterResult {
+    color: #333;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#filtersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 50px;
+}
+
+.searchInputField {
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.regionSelect {
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 16px;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%234a90e2"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
